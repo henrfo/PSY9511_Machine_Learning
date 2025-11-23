@@ -1,4 +1,4 @@
-name: /Users/henrikformoe/Desktop/Desktop_M2/Projects_25/PSY9511/PSY9511_env
+name: PSY9511_env
 channels:
   - defaults
 dependencies:
@@ -9,4 +9,11 @@ dependencies:
   - numpy
   - pandas
   - scikit-learn
-prefix: /Users/henrikformoe/Desktop/Desktop_M2/Projects_25/PSY9511/PSY9511_env
+  - pytorch
+  - torchvision
+  - pytorch-lightning
+  - pip
+  - pip:
+    - ISLP
+    - torchmetrics
+    - torchinfo
